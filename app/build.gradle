@@ -5,6 +5,10 @@ android {
     compileSdkVersion 31
     buildToolsVersion "30.0.3"
 
+lintOptions {
+        abortOnError false
+    }
+
     defaultConfig {
         applicationId "com.tyron.code"
         minSdkVersion 26
