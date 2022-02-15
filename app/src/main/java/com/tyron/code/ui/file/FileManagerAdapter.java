@@ -33,7 +33,7 @@ public class FileManagerAdapter extends RecyclerView.Adapter<FileManagerAdapter.
         mListener = listener;
     }
     
-    @RequiresApi(api = android.os.Build.VERSION_CODES.R)
+   
     public void submitFile(File file) {
         mFiles.clear();
         
