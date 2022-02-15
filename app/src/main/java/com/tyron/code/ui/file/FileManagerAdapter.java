@@ -32,6 +32,7 @@ public class FileManagerAdapter extends RecyclerView.Adapter<FileManagerAdapter.
         mListener = listener;
     }
     
+    @RequiresApi(api = Build.VERSION_CODES.R)
     public void submitFile(File file) {
         mFiles.clear();
         
